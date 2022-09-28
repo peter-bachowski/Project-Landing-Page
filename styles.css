@@ -8,10 +8,12 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-left: 200px;
+    padding-right: 200px;
 }
 
 .logo-and-links {
-    width: 1200px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -19,11 +21,26 @@ body {
 
 .logo {
     font-size: 24px;
+    font-weight: 700;
+}
+
+.header-content {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: 700;
 }
 
 .image {
-    width: 300px;
+    width: 500px;
     height: 200px;
+    background-color: #E5E7EB;
 }
 
 ul {
