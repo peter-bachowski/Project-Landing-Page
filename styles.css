@@ -1,5 +1,7 @@
 body {
     margin: 0px;
+    font-family: Roboto, "Roboto Light", "Roboto Medium";
+
 }
 
 .header {
@@ -27,18 +29,34 @@ body {
 .header-content {
     margin-top: 100px;
     margin-bottom: 100px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-shrink: 0;
+    gap: 32px;
+}
+
+.content-left {
+    width: 50%;
 }
 
 .title {
     font-size: 48px;
     font-weight: 700;
+
+}
+
+.subtext {
+    margin-bottom: 8px;
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 .image {
-    width: 500px;
+    display: flex;
+    flex-shrink: 0;
+    width: 400px;
     height: 200px;
     background-color: #E5E7EB;
 }
@@ -48,4 +66,13 @@ ul {
     display: flex;
     padding: 0px;
     gap: 32px;
+}
+
+button {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    font-weight: 700;
+    padding: 4px 24px;
+    border-style: none;
+    border-radius: 5px;
 }
