@@ -1,7 +1,8 @@
 html, body {
     margin: 0px;
-    font-family: Roboto, "Roboto Light", "Roboto Medium";
-    height: 100%;
+    font-family: 'Roboto', 'Light Roboto';
+    height: 100vw;
+    width: 100vw;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -55,7 +56,6 @@ html, body {
 .title {
     font-size: 48px;
     font-weight: 700;
-
 }
 
 .subtext {
@@ -80,36 +80,41 @@ html, body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 32px;
 }
 
 .information-title {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 36px;
     font-weight: 900;
-    margin-bottom: 32px;
+    padding: 50px;
 }
 
 .info-main-container {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 32px;
+    gap: 64px;
+    margin-bottom: 120px;
 }
 
 .info-container {
     display: flex;
+    width: 170px;
     flex-direction: column;
     align-items: center;
-    width: 120px;
     font-size: 18px;
     text-align: center;
 }
 
 .info-box {
-    height: 100px;
-    width: 100px;
-    border: 2px solid #3882F6;
+    height: 150px;
+    width: 150px;
+    border: 3px solid #3882F6;
     border-radius: 10px;
+    margin-bottom: 10px;
 }
 
 .quote-area {
@@ -118,13 +123,51 @@ html, body {
     justify-content: center;
     align-items: center;
     background-color: #E5E7EB;
+    color: #1F2937;
+    padding: 100px 20%;
+}
+
+.quote {
     font-size: 36px;
-    padding: 100px 500px;
+    font-style: light italic;
+    margin-bottom: 20px;
 }
 
 .author {
-    font-weight: 700;
+    width: 100%;
     text-align: right;
+    font-weight: 700;
+    font-size: 30px;
+    padding-right: 96px;
+}
+
+.action-area {
+    padding: 100px 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.action-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #3882F6;
+    border-radius: 10px;
+    color:#F9FAF8;
+    padding: 50px 100px;
+    display: flex;
+    gap: 20px;
+}
+
+.action-title {
+    font-size: 24px;
+    font-weight: 900px;
+}
+
+.action-button {
+    border: 2px solid #E5E7EB;
+    font-size: 16px;
 }
 
 ul {
