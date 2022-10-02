@@ -65,16 +65,9 @@ html, body {
     color: #E5E7EB;
 }
 
-.image {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #E5E7EB;
-    color: #1F2937;
-    display: flex;
-    flex-shrink: 0;
-    width: 400px;
-    height: 200px;
+.image-container {
+    width: 50%;
+    height: auto;
 }
 
 .information {
